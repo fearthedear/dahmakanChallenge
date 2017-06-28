@@ -2,6 +2,7 @@
   <div id="app">
     <h1></h1>
     {{msg}}
+    <div class="card-panel">
     <table class="responsive bordered" v-if="orders">
       <thead>
         <tr>
@@ -23,6 +24,7 @@
         </tr>
       </tbody>
     </table>
+    </div>
   </div>
 </template>
 
@@ -145,7 +147,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    margin-top: 60px;
+    margin: 60px;
   }
   
   .gray {
